@@ -6,11 +6,12 @@ class MockupScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white, // Set Scaffold background to white
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(60),
         child: Container(
           padding: const EdgeInsets.only(left: 16, right: 16),
-          color: Colors.white,
+          color: Colors.white, // Ensure app bar has a white background
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -54,7 +55,7 @@ class MockupScreen extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 25),
             const Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
