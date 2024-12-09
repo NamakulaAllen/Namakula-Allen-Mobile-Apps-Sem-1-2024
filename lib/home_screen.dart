@@ -6,7 +6,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String fullName = "Namakula Allen";
-    String registrationNumber = "2023/DCSE/0069/ss";
+    String registrationNumber = "2023/DCSE/0069/SS";
 
     return Scaffold(
       body: Padding(
@@ -23,7 +23,7 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(height: 10),
               Text(
                 registrationNumber,
-                style: const TextStyle(fontSize: 18),
+                style: const TextStyle(fontSize: 17),
               ),
             ],
           ),
